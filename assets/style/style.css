@@ -1,0 +1,52 @@
+body {
+    margin-top: 0;
+}
+
+.grid-container {
+    margin: auto;
+    width: 1100px;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 30% 30% 30%;
+    /* grid-template-areas:
+    ". header header header header header ." */
+}
+
+.header {
+    background-image: url("../img/header_bg.png");
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.logo {
+    /* margin-left: 10px; */
+    /* grid-column-start: 2;
+    grid-column-end: 2; */
+    padding-right: 100%;
+}
+.navi {
+    margin: 0;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    padding-left: 0;
+}
+
+nav {
+    margin: 0;
+}
